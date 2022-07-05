@@ -7,16 +7,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0;
-}
-
-/*
-  2. Remove default margin
-*/
-* {
-    margin: 0;
-}
-
-/*
+}/*
   3. Allow percentage-based heights in the application
 */
 html,
@@ -38,9 +29,6 @@ body {
   6. Improve media defaults
 */
 img,
-picture,
-video,
-canvas,
 svg {
     display: block;
     max-width: 100%;
@@ -51,8 +39,7 @@ svg {
 */
 input,
 button,
-textarea,
-{
+textarea {
     font: inherit;
 }
 
@@ -67,4 +54,9 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;}
-    
+a{
+  text-decoration: none;
+}    
+ul {
+  list-style: none;
+}
